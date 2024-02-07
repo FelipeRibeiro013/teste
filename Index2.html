@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tetris 2</title>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <div class="menu" id="menu">
+        <div class="title">Tetris 2</div>
+        <div class="instructions">Use as setas para mover e espaço para girar.</div>
+        <div class="instructions">Pressione R para reiniciar.</div>
+        <button onclick="startGame()">Iniciar Jogo</button>
+    </div>
+
+    <canvas id="tetrisCanvas" width="300" height="600" style="display: none;"></canvas>
+
+    <footer style="text-align: center; margin-top: 20px; color: #aaa; font-size: 12px;">
+        © 2024 FALSO Tetris por Felipe Ribeiro. Todos os direitos reservados.
+    </footer>
+    <script src="funcion.js"></script>
+</body>
+
+</html>
